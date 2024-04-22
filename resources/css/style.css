@@ -53,6 +53,8 @@ header h1 {
     display: inline;
     color: antiquewhite;
     font-size: 4rem;
+    text-shadow: 4px 4px 4px black;
+    margin-left: 50px;
 }
 
 #logo {
@@ -69,6 +71,12 @@ nav a {
     color: burlywood;
     margin: 0 10px;
     font-family: Raleway;
+    text-shadow: 2px 2px 2px black;
+    font-size: 2rem;
+}
+
+nav a:hover {
+    font-size: 3rem;
 }
 
 nav ul {
