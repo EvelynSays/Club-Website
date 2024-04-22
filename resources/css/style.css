@@ -19,6 +19,8 @@ h2 {
     font-family: Roboto;
     font-size: 2rem;
     color: azure;
+    background-color: rgba(0, 0, 0, 0.623);
+    font-style: italic;
 }
 
 a:hover {
@@ -86,7 +88,7 @@ main {
     width: 100%;
     align-items: flex-start;
     height: 85vh;
-    background-image: url("../images/bookstacks.png");
+    background-image: url("../images/bgalt.png");
     background-size: cover;
 }
 
@@ -106,24 +108,64 @@ main p {
     display: flex;
     flex-direction: column;
     flex: 1;
-    border: 1px solid black;
+    border: 1px solid bisque;
     height: 100%;
     padding: 20px;
     justify-content: space-between;
 }
 
 /* About section styling */
-#about img {
+#about img, #schedule img {
     width: 100%;
 }
 
+#about h2 {
+    margin-bottom: 10px;
+}
 
 /* Schedule section styling */
-#schedule img {
-    width: 100%;
-}
 
 /* Book Recommendation section styling */
+#recommendations {
+    text-align: left;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+}
+#recommendations img {
+    width: 20%;
+    object-fit: contain;
+}
+
+.recommendation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.recommendation img {
+    align-self: start;
+}
+
+table {
+    width: 78%;
+    border-collapse: collapse;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.623);
+    border: 1px solid white;
+    font-family: Raleway;
+}
+
+table a {
+    color: bisque;
+}
+
+td, th {
+    border: 1px solid white;
+    padding: 10px;
+}
+
 
 /* footer styling */
 
@@ -135,6 +177,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(65, 39, 14);
+    padding: 10px;
 }
 
 footer a {
