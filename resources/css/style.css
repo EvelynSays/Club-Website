@@ -1,0 +1,128 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a:hover {
+    color:cornsilk;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Header and nav styling */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    height: 10vh;
+    background-color: rgb(65, 39, 14);
+}
+
+header h1 {
+    font-family: "Great Vibes";
+    display: inline;
+    color: antiquewhite;
+    font-size: 4rem;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    align-self: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: burlywood;
+    margin: 0 10px;
+    font-family: Raleway;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;    
+}
+
+/* Main content styling */
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    align-items: flex-start;
+    height: 85vh;
+    background-image: url("../images/book-portal.png");
+    background-size: cover;
+}
+
+.main-section {
+    flex: 1;
+    border: 1px solid black;
+    height: 100%;
+}
+
+/* About section styling */
+#about img {
+    width: 100%;
+}
+
+
+/* Schedule section styling */
+#schedule img {
+    width: 100%;
+}
+
+/* Book Recommendation section styling */
+
+/* footer styling */
+
+footer {
+    font-family: Raleway;
+    display: flex;
+    border: 1px solid black;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(65, 39, 14);
+}
+
+footer a {
+    align-self: flex-end;
+    color: burlywood;
+}
+
+footer p {
+    align-self: flex-start;
+    color: antiquewhite;
+}
