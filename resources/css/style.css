@@ -197,3 +197,159 @@ footer p {
     align-self: flex-start;
     color: antiquewhite;
 }
+
+/* Mobile styling */
+
+@media only screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    nav a:hover {
+        font-size: 1rem;
+    }
+
+    body {
+        height: auto;
+    }
+
+    main {
+        flex-direction: column;
+        height: auto;
+    }
+
+    main h2 {
+        text-align: center;
+    }
+
+    .main-section {
+        flex-direction: column;
+    }
+
+    .recommendation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .recommendation img {
+        align-self: center;
+        margin-bottom: 10px;
+    }
+
+    #recommendations .recommendation img {
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+
+    footer p, footer a {
+        align-self: center;
+        margin: 5px;
+    }
+}
+
+/* Tablet styling */
+
+/* Portrait tablet styling */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav {
+        align-self: auto;
+    }
+}
+
+/* Landscape tablet styling */
+@media only screen and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    nav {
+        align-self: center;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    nav a:hover {
+        font-size: 1rem;
+    }
+
+    body {
+        height: auto;
+    }
+
+    main {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #about, #schedule {
+        position: relative;
+    }
+
+
+    #about img, #schedule img {
+        width: 100%;
+    }
+
+    main h2 {
+        text-align: center;
+    }
+
+    .main-section {
+        flex-direction: column;
+    }
+
+    table {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    footer {
+        height: auto;
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+
+    footer p, footer a {
+        align-self: center;
+        margin: 5px;
+    }
+}
+
