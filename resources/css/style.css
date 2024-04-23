@@ -281,10 +281,14 @@ footer p {
     nav {
         align-self: auto;
     }
+
+    nav a {
+        font-size: 5rem;
+    }
 }
 
 /* Landscape tablet styling */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1400px) {
     header {
         flex-direction: column;
         height: auto;
@@ -303,7 +307,7 @@ footer p {
     }
 
     nav a {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     nav a:hover {
